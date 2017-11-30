@@ -24,10 +24,16 @@ body {
 }
 header{
   background-color: yellow;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  flex-basis: 300px;
 }
 
 h1{
   color: teal;
+  font-size: 150px;
+  font-family: 'Pacifico', cursive;
 }
 .middle_section{
   display: flex;
