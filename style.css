@@ -59,10 +59,15 @@ main img{
   width: 150px;
 }
 
+
 .footer_nav ul{
+
   background-color: purple;
   height: 100px;
   display: flex;
+  margin: 0 auto;
+  padding: 5px;
+  align-items: center;
   list-style-type: none;
 }
 
