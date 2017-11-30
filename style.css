@@ -1,0 +1,12 @@
+/* CSS for gwendolynX.com portfolio site
+by Gwen Latasa */
+
+@media screen and (max-width: 600px){
+  main {
+    flex-direction: column;
+  }
+ /*
+  section {
+    order: 1;
+  }*/
+}
