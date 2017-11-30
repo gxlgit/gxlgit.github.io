@@ -13,7 +13,6 @@ by Gwen Latasa */
 
 body {
   min-height: 100vh;
-  background-color: orange;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -23,7 +22,8 @@ body {
   align-items: center;*/
 }
 header{
-  background-color: yellow;
+  /*
+  background-color: #faff82;*/
   display:flex;
   flex-direction: row;
   align-items: center;
@@ -31,14 +31,14 @@ header{
 }
 
 h1{
-  color: teal;
+  color: #86ced6;
   font-size: 150px;
   font-family: 'Pacifico', cursive, sans-serif;
 }
 .middle_section{
   display: flex;
   flex: 1;
-  background-color: red;
+
 }
 
 h3{
@@ -54,9 +54,10 @@ a{
   color: white;
 }
 .side_nav{
-  background-color: lightblue;
+
   display: flex;
   flex-basis: 200px;
+  border-right: solid;
 
 }
 .side_nav ul{
@@ -66,15 +67,17 @@ a{
   align-items: center;
 }
 
+
 .side_nav a{
   font-size: 30px;
+  color: #4a676b;
 }
 main{
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   padding: 20px;
-  color: white;
+
 }
 main img{
   border-radius: 50%;
@@ -85,7 +88,7 @@ main img{
 
 
 .footer_nav ul{
-  background-color: purple;
+  /*background-color: #86ced6;*/
   height: 100px;
   display: flex;
   margin: 0 auto;
@@ -101,13 +104,14 @@ main img{
   line-height: 60px;
   border-radius: 50%;
   text-align: center;
+
 }
 
 .email{
-  background-color: red;
+  background-color: #efa0c6;
 }
 .ig{
-    background-color: blue;
+    background-color: #86efd8;
 }
 
 
