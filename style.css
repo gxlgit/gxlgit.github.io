@@ -12,6 +12,7 @@ by Gwen Latasa */
 }
 
 body {
+  background-color: orange;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -19,8 +20,32 @@ body {
   justify-content: center;
   align-items: center;*/
 }
+header{
+  background-color-color: yellow;
+}
 
+h1{
+  font-family: cursive;
+  color: teal;
+}
 .middle_section{
   display: flex;
+  background-color: red;
+}
+nav{
+  background-color: lightblue;
+}
 
+a{
+  text-decoration: none;
+}
+main img{
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 150px;
+}
+
+footer{
+  background-color: purple;
 }
