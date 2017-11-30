@@ -18,3 +18,8 @@ body {
   justify-content: center;
   align-items: center;*/
 }
+
+.middle_section{
+  display: flex;
+  
+}
