@@ -44,6 +44,7 @@ h1{
 h3{
   font-family: 'Shadows Into Light', cursive, sans-serif;
   font-size: 40px;
+  font-weight: bold;
 
 }
 p{
@@ -52,6 +53,7 @@ p{
 a{
   text-decoration: none;
   color: white;
+  font-family: 'Shadows Into Light', cursive, sans-serif;
 }
 .side_nav{
 
@@ -69,7 +71,7 @@ a{
 
 
 .side_nav a{
-  font-size: 30px;
+  font-size: 40px;
   color: #4a676b;
 }
 main{
@@ -98,7 +100,7 @@ main img{
 }
 
 .footer_nav li{
-  font-size: 15px;
+  font-size: 20px;
   height: 60px;
   width: 60px;
   line-height: 60px;
