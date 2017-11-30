@@ -41,11 +41,17 @@ a{
   text-decoration: none;
   color: white;
 }
-nav{
+.side_nav{
   background-color: lightblue;
+  display: flex;
+  flex-basis: 200px;
+
 }
 .side_nav ul{
   list-style-type: none;
+  margin: 0;
+  padding: 5px 5px 20px 5px;
+  align-items: center;
 }
 
 .side_nav a{
@@ -61,7 +67,6 @@ main img{
 
 
 .footer_nav ul{
-
   background-color: purple;
   height: 100px;
   display: flex;
