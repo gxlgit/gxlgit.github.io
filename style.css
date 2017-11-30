@@ -33,7 +33,7 @@ header{
 h1{
   color: teal;
   font-size: 150px;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Pacifico', cursive, sans-serif;
 }
 .middle_section{
   display: flex;
@@ -42,7 +42,12 @@ h1{
 }
 
 h3{
+  font-family: 'Shadows Into Light', cursive, sans-serif;
+  font-size: 40px;
 
+}
+p{
+  font-family: arial, sans-serif;
 }
 a{
   text-decoration: none;
@@ -69,6 +74,7 @@ main{
   flex-direction: column;
   margin: 0 auto;
   padding: 100px;
+  color: white;
 }
 main img{
   border-radius: 50%;
