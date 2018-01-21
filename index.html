@@ -10,7 +10,7 @@ by Gwen Latasa-->
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
-
+    <script src="https://use.fontawesome.com/949b08bc0c.js"></script>
     <title>Gwen Latasa's Web Development Portfolio</title>
   </head>
 
@@ -24,18 +24,38 @@ by Gwen Latasa-->
         <ul>
           <li><a href="#about">about</a></li>
           <li> <a href="#portfolio">portfolio</a> </li>
-          <li><a href="mailto:gxlatasa@gmail.com">contact</a> </li>
+          <li><a href="#contact">contact</a> </li>
         </ul>
 
       </nav>
       <main>
-        <img src="me.jpg" alt="picture of Gwen">
+        <img class="profile-img" src="me.jpg" alt="picture of Gwen">
         <h3 id="about">about me</h3>
         <p>Hi, I'm Gwen. I'm currently enrolled in General Assembly's Web Development Intensive
-        in Washington, DC. Check out my portoflio and let me know what you think. </p>
+        in Washington, DC. Check out my portfolio and let me know what you think. </p>
         <h3 id="portfolio">portfolio</h3>
-        <p>portfolio links will go here</p>
+        <div class="portfolio">
 
+          <div class="portfolio-box">
+            <div><a href="https://gxlgit.github.io/simon_game/"><img src="simon_thmbnl.png" alt=""></a></div>
+            <span class="portfolio-title">Simon</span>
+            <p>Nostalgic memory game.</p>
+            <span class="languages">Javascript, HTML, CSS</span>
+          </div>
+          <div class="portfolio-box">
+
+            <div><a href="https://helpup-gxl.herokuapp.com/"><img src="helpUp_thmbnl.png" alt=""></a></div>
+            <span class="portfolio-title">helpUp</span>
+            <p>Web Based App for Volunteers</p>
+            <span class="languages">nodeJS, mongoose, express, materialize</span>
+          </div>
+          <div class="portfolio-box">
+            <div class=""><a href="http://gwendolynX.com"> <img src="gwenX_thmbnl.png" alt=""></a></div>
+            <span class="portfolio-title">gwendolynX.com</span>
+            <p>Photography Website</p>
+            <span class="languages">bootstrap</span>
+          </div>
+        </div>
       </main>
     </div>
 
@@ -43,8 +63,10 @@ by Gwen Latasa-->
     <footer id="contact">
       <div class="footer_nav">
         <ul>
-          <li class="email"><a href="mailto:gxlatasa@gmail.com">email</a></li>
-          <li class="ig"><a href="http://www.instagram.com/summeronrepeat">ig</a></li>
+          <li class="email"><a href="mailto:gxlatasa@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+          <li class="ig"><a href="http://www.instagram.com/summeronrepeat"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li class="linkedin"> <a href="https://www.linkedin.com/in/gwen-latasa-06580114a/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+          <li class="github"> <a href="https://github.com/gxlgit"><i class="fa fa-github" aria-hidden="true"></i></a> </li>
         </ul>
 
       </div>

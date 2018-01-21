@@ -5,11 +5,8 @@ by Gwen Latasa */
   main {
     flex-direction: column;
   }
- /*
-  section {
-    order: 1;
-  }*/
 }
+
 
 body {
   min-height: 100vh;
@@ -17,9 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /*
-  justify-content: center;
-  align-items: center;*/
+  font-family: 'Shadows Into Light', cursive, sans-serif;
 }
 header{
   /*
@@ -38,7 +33,6 @@ h1{
 .middle_section{
   display: flex;
   flex: 1;
-
 }
 
 h3{
@@ -56,11 +50,9 @@ a{
   font-family: 'Shadows Into Light', cursive, sans-serif;
 }
 .side_nav{
-
   display: flex;
   flex-basis: 200px;
   border-right: solid;
-
 }
 .side_nav ul{
   list-style-type: none;
@@ -68,24 +60,60 @@ a{
   padding: 5px 5px 20px 5px;
   align-items: center;
 }
-
-
 .side_nav a{
   font-size: 40px;
   color: #4a676b;
 }
+
+.side_nav a:hover{
+  opacity: .5;
+}
+
 main{
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   padding: 20px;
-
 }
-main img{
+
+.profile-img{
   border-radius: 50%;
   border: 1px solid #ddd;
   padding: 5px;
   width: 200px;
+}
+
+.portfolio{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  /* contents inside will wrap */
+  flex-wrap: wrap;
+}
+
+.portfolio-box{
+  /* background-color: #fdffb5; */
+  flex-direction: column;
+  justify-content: center;
+
+  /* height:200px;
+  width:200px; */
+  padding: 10px;
+  text-align: center;
+}
+
+.portfolio-title{
+  color: #4a676b;
+  font-size: 35px;
+}
+
+.portfolio-box p{
+  color: #40737a;
+}
+
+.languages {
+  color: #317882;
+  font-style: italic;
 }
 
 
@@ -100,43 +128,27 @@ main img{
 }
 
 .footer_nav li{
-  font-size: 20px;
+  font-size: 22px;
   height: 60px;
   width: 60px;
   line-height: 60px;
   border-radius: 50%;
   text-align: center;
-
+}
+.footer_nav li:hover {
+    opacity: 0.5;
 }
 
 .email{
   background-color: #efa0c6;
 }
 .ig{
-    background-color: #86efd8;
+  background-color: #86efd8;
 }
 
-
-/* borrowed from w3schools to make the instagram button
-still need to figure out how to mke it bigger
-https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
-.fa {
-    font-size: 80px;
-
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+.linkedin{
+  background-color: #79a9f7;
 }
-
-.fa:hover {
-    opacity: 0.7;
+.github{
+  background-color: #db9ffc;
 }
-
-.fa-instagram{
-  background: #3B5998;
-  color: white;
-
-}*/
