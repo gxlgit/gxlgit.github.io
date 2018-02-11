@@ -1,39 +1,17 @@
 /* CSS for gwendolynX.com portfolio site
 by Gwen Latasa */
 
-@media screen and (max-width: 600px){
-  main {
-    flex-direction: column;
-  }
-}
 
+
+/* https://line25.com/tutorials/how-to-create-a-simple-collapsing-header-effect */
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
 
 body {
-  min-height: 100vh;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-family: 'Shadows Into Light', cursive, sans-serif;
-}
-header{
-  /*
-  background-color: #faff82;*/
-  display:flex;
-  flex-direction: row;
-  align-items: center;
-  flex-basis: 300px;
+	text-align: center;
 }
 
-h1{
-  color: #86ced6;
-  font-size: 150px;
-  font-family: 'Pacifico', cursive, sans-serif;
-}
-.middle_section{
-  display: flex;
-  flex: 1;
-}
 
 h3{
   font-family: 'Shadows Into Light', cursive, sans-serif;
@@ -49,31 +27,44 @@ a{
   color: white;
   font-family: 'Shadows Into Light', cursive, sans-serif;
 }
-.side_nav{
-  display: flex;
-  flex-basis: 200px;
-  border-right: solid;
-}
-.side_nav ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 5px 5px 20px 5px;
-  align-items: center;
-}
-.side_nav a{
-  font-size: 40px;
-  color: #4a676b;
+
+header {
+	height: 50px;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
 }
 
-.side_nav a:hover{
-  opacity: .5;
+
+nav {
+	height: 50px !important;
+
 }
 
-main{
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  padding: 20px;
+#banner {
+	width: 100%;
+	height: 1350px;
+	top: 50px;
+	background: #707070;
+	position: fixed;
+	/* background: url(banner-bg.jpg);
+	background-size: cover; */
+
+}
+
+#banner img {
+	width: 100%;
+}
+
+
+
+#content {
+	width: 100%;
+	position: relative;
+	top: 1500px;
+	background: #ebebeb;
+	height: 5000px;
+	z-index: 5;
 }
 
 .profile-img{
