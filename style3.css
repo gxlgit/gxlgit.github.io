@@ -2,21 +2,17 @@
 by Gwen Latasa */
 
 
-
-/* https://line25.com/tutorials/how-to-create-a-simple-collapsing-header-effect */
-body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
-	margin: 0; padding: 0; border: 0;
-}
-
 body {
 	text-align: center;
+	background-color: #f6edff;
 }
 
 
-h3{
+h2{
   font-family: 'Shadows Into Light', cursive, sans-serif;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;
+	text-shadow: 2px 2px 4px #96b9f2;
 
 }
 p{
@@ -29,48 +25,63 @@ a{
 }
 
 header {
-	height: 50px;
-	position: fixed;
+	height: 100px;
+	/* position: fixed; */
 	width: 100%;
-	z-index: 10;
+	/* z-index: 10; */
 }
 
 
 nav {
-	height: 50px !important;
+	height: 100px !important;
+}
+
+nav a{
+	font-size: 1.5em !important;
 
 }
 
-#banner {
-	width: 100%;
-	height: 1350px;
-	top: 50px;
-	background: #707070;
-	position: fixed;
-	/* background: url(banner-bg.jpg);
-	background-size: cover; */
+nav a:hover{
+  opacity: .5;
+}
+.name-logo {
+	font-family: 'Pacifico', cursive, sans-serif;
+	font-size: 2.5em !important;
+}
+nav .row {
+	/* height: 40px; */
+	padding: 15px;
+	margin: 0 auto;
 }
 
-#banner img {
-	width: 100%;
+main {
+	/* width: 100%; */
+	top: 70px !important;
+	/* background: #707070; */
+
+
 }
 
-
+#about {
+	margin: 50px auto;
+	padding: 50px 0 50px 0;
+	border-bottom: 1px solid #ddd;
+}
+#portfolio{
+	margin: 50px auto;
+	padding: 15px 0 50px 0;
+	border-bottom: 1px solid #ddd;
+}
 
 #content {
 	width: 100%;
-	position: relative;
-	top: 1500px;
-	/* background: #ebebeb; */
-	background: white;
 
-	height: 5000px;
-	z-index: 5;
 }
 
 .profile-img{
   border-radius: 50%;
   border: 1px solid #ddd;
+	background-color: white;
 	margin: 50px;
   padding: 5px;
   width: 200px;
@@ -96,8 +107,10 @@ nav {
 }
 
 .portfolio-title{
-  color: #4a676b;
+  color: #0d2e56;
   font-size: 35px;
+	text-shadow: 2px 2px 4px #96b9f2;
+
 }
 
 .portfolio-box p{
@@ -109,26 +122,30 @@ nav {
   font-style: italic;
 }
 
-
-.footer_nav ul{
+.footer_nav i{
+  color:white;
+}
+.footer_nav{
   /*background-color: #86ced6;*/
-  height: 100px;
+  height: 150px;
   display: flex;
   margin: 0 auto;
   padding: 5px;
   align-items: center;
-  list-style-type: none;
+	justify-content: center;
 }
 
-.footer_nav li{
-  font-size: 22px;
-  height: 60px;
-  width: 60px;
-  line-height: 60px;
+.contact-circle{
+	color: white;
+  font-size: 3em;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
   border-radius: 50%;
   text-align: center;
+	margin: 10px;
 }
-.footer_nav li:hover {
+.contact-circle :hover {
     opacity: 0.5;
 }
 
