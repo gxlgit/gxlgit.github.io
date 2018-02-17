@@ -16,7 +16,8 @@ h2{
 
 }
 p{
-  font-family: arial, sans-serif;
+  font-family: 'PT Sans', sans-serif;
+	font-size: 1.25em;
 }
 a{
   text-decoration: none;
@@ -104,6 +105,7 @@ main {
   width:200px; */
   padding: 10px;
   text-align: center;
+
 }
 
 .portfolio-title{
@@ -115,6 +117,11 @@ main {
 
 .portfolio-box p{
   color: #40737a;
+}
+
+.portfolio-box img{
+	box-shadow: 2px 2px 4px #96b9f2;
+
 }
 
 .languages {
