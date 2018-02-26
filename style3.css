@@ -39,7 +39,6 @@ nav {
 
 nav a{
 	font-size: 1.5em !important;
-
 }
 
 nav a:hover{
@@ -49,6 +48,7 @@ nav a:hover{
 	font-family: 'Pacifico', cursive, sans-serif;
 	font-size: 2.5em !important;
 }
+
 nav .row {
 	/* height: 40px; */
 	padding: 15px;
@@ -59,8 +59,6 @@ main {
 	/* width: 100%; */
 	top: 70px !important;
 	/* background: #707070; */
-
-
 }
 
 #about {
@@ -68,6 +66,15 @@ main {
 	padding: 50px 0 50px 0;
 	border-bottom: 1px solid #ddd;
 }
+.pdf-link{
+	color: #0d2e56;
+  font-size: 35px;
+	text-shadow: 1px 1px 2px #e20b61;
+}
+.pdf-link:hover{
+  opacity: .5;
+}
+
 #portfolio{
 	margin: 50px auto;
 	padding: 15px 0 50px 0;
@@ -88,31 +95,28 @@ main {
   width: 200px;
 }
 
-.portfolio{
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  /* contents inside will wrap */
-  flex-wrap: wrap;
-}
 
 .portfolio-box{
   /* background-color: #fdffb5; */
-  flex-direction: column;
-  justify-content: center;
+  /* flex-direction: column;
+  justify-content: center; */
 
   /* height:200px;
   width:200px; */
-  padding: 10px;
+  /* padding: 10px;
+	padding-top: 50px; */
+	margin-top: 25px !important;
   text-align: center;
+}
 
+.portfolio-title:hover{
+  opacity: .5;
 }
 
 .portfolio-title{
   color: #0d2e56;
   font-size: 35px;
 	text-shadow: 2px 2px 4px #96b9f2;
-
 }
 
 .portfolio-box p{
@@ -121,7 +125,6 @@ main {
 
 .portfolio-box img{
 	box-shadow: 2px 2px 4px #96b9f2;
-
 }
 
 .languages {
@@ -152,7 +155,7 @@ main {
   text-align: center;
 	margin: 10px;
 }
-.contact-circle :hover {
+.contact-circle:hover {
     opacity: 0.5;
 }
 
