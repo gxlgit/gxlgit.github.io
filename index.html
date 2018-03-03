@@ -15,6 +15,10 @@ by Gwen Latasa-->
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Gwen Latasa</title>
@@ -23,7 +27,11 @@ by Gwen Latasa-->
 <body class="blue lighten-5">
 
   <header class=''>
-    <nav class="nav-wrapper blue lighten-1">
+    <div id='banner' class="container-fluid">
+      <img class='banner-img' src='./images/logo_long_rectangle.png' alt='Gwen Latasa logo'>
+    </div>
+
+    <nav id='sticky-nav' class="nav-wrapper blue lighten-1">
       <div class='row'>
         <a class='name-logo yellow-text text-lighten-4' href="#banner">Gwen Latasa&nbsp;</a>&nbsp;
         <a href="#about">     about</a> &nbsp; |&nbsp;
@@ -33,10 +41,19 @@ by Gwen Latasa-->
     </nav>
   </header>
 
-  <main class=''>
-    <div id='banner' class="container-fluid">
-      <img class='banner-img' src='./images/logo_long_rectangle.png' alt='Gwen Latasa logo'>
+  <!-- <nav id="content">
+    <div class="nav-wrapper">
+      <ul id="nav-mobile">
+        <li><a href="#sass">Sass</a></li>
+        <li><a href="#badges">Components</a></li>
+        <li><a href="#collapsible">JavaScript</a></li>
+      </ul>
     </div>
+  </nav> -->
+
+
+  <main class=''>
+
 
     <div id="content" class="row">
 
@@ -131,6 +148,9 @@ by Gwen Latasa-->
   </footer>
   </div>
 
+<script type="text/javascript" src='script.js'>
+
+</script>
 </body>
 
 </html>
