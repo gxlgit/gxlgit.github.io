@@ -3,9 +3,6 @@ $(document).ready(function(){
 
       top: $('#sticky-nav').offset().top
     });
-    // $('.scrollspy').scrollSpy({
-    //   scrollOffset: 0
-    // });
 $(".button-collapse").sideNav();
 
   });
