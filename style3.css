@@ -1,6 +1,8 @@
 /* CSS for gwendolynX.com portfolio site
 by Gwen Latasa */
 
+
+
 @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
     10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -18,11 +20,16 @@ by Gwen Latasa */
 body {
 	text-align: center;
 	background-color: #f6edff;
+  margin-bottom: 300px !important;
 }
 
 .banner-img{
-  height: 100vh;
   width: 100vw;
+  /* height: 100vh;
+  width: 100vw; */
+}
+.button-collapse{
+  margin-top: 10px !important;
 }
 
 h2{
@@ -42,35 +49,39 @@ a{
   font-family: 'Shadows Into Light', cursive, sans-serif;
 }
 
-header {
-	/* height: 100px; */
-	/* position: fixed; */
-	width: 100%;
-	/* z-index: 10; */
-}
-
 
 nav {
-	height: 100px !important;
+	height: 90px !important;
+  width: 100vw !important;
+  /* need this to close the strange gap */
+  margin-top: -6px;
 }
 
 nav a{
 	font-size: 1.5em !important;
+  margin-top: 10px;
 }
 
 nav a:hover{
   opacity: .5;
 }
+
+/* this is to center the links horizontally on the nav, which materialize doesnt like */
+#full-nav {
+  transform: translateX(32%);
+  webkit-transform: translateX(-32%);
+}
+
 .name-logo {
 	font-family: 'Pacifico', cursive, sans-serif;
 	font-size: 2.5em !important;
 }
 
-nav .row {
-	/* height: 40px; */
-	padding: 15px;
-	margin: 0 auto;
+.name-logo-small{
+  font-family: 'Pacifico', cursive, sans-serif;
+	font-size: 1em !important;
 }
+
 
 main {
 	/* width: 100%; */
@@ -100,7 +111,6 @@ main {
 
 #content {
 	width: 100%;
-
 }
 
 .profile-img{
@@ -111,9 +121,6 @@ main {
   padding: 5px;
   width: 200px;
 }
-
-
-
 
 
 .portfolio-box{
@@ -147,6 +154,8 @@ main {
   color: #317882;
   font-style: italic;
 }
+
+
 
 .footer_nav i, svg{
   color:white;
@@ -186,4 +195,15 @@ main {
 }
 .github{
   background-color: #db9ffc;
+}
+
+.email-addr{
+  font-size: 1.5em !important;
+}
+
+@media screen and (min-width: 1350px) {
+    .banner-img {
+      height: 100vh;
+        width:100vw;
+    }
 }
