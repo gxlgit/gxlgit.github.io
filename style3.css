@@ -82,6 +82,12 @@ nav a:hover{
 	font-size: 1em !important;
 }
 
+.logo{
+  height: 50px;
+  margin-top: 20px;
+  margin-right: 30px;
+  transform: rotate(-7deg);
+}
 
 main {
 	/* width: 100%; */
@@ -112,6 +118,8 @@ main {
 #content {
 	width: 100%;
 }
+
+
 
 .profile-img{
   border-radius: 50%;
