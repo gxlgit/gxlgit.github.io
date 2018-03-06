@@ -100,11 +100,17 @@ main {
 	padding: 50px 0 50px 0;
 	border-bottom: 1px solid #ddd;
 }
-.pdf-link{
-	color: #0d2e56;
-  font-size: 35px;
-	text-shadow: 1px 1px 2px #e20b61;
+.sub-link{
+  color: #0d2e56;
+  text-shadow: 1px 1px 2px #e20b61;
+  font-size: 20px;
 }
+
+.pdf-link{
+  font-size: 35px;
+}
+
+
 .pdf-link:hover{
   opacity: .5;
 }
