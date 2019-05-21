@@ -49,6 +49,9 @@ a{
   font-family: 'Shadows Into Light', cursive, sans-serif;
 }
 
+#sticky-nav {
+  background-color: #0B78D2;
+}
 
 nav {
 	height: 90px !important;
@@ -167,6 +170,7 @@ main {
 .languages {
   color: #317882;
   font-style: italic;
+  font-weight: bold;
 }
 
 
